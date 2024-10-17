@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import "./App.css";
 
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
@@ -9,10 +10,12 @@ import Main from "./components/Main/Main";
 const App = () => {
   return (
     <>
-      <Header />
-      <Navbar />
-      <Main />
-      <Footer />
+      <div className="container">
+        <Header />
+        <Navbar />
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 };

@@ -1,0 +1,6 @@
+.container {
+  width: 80%;
+  min-height: 10dvh;
+  margin: 0 auto;
+  background: aliceblue;
+}

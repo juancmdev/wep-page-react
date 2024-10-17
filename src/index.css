@@ -5,5 +5,6 @@
 }
 
 body {
-  background: aliceblue;
+  background: rgb(71, 164, 245);
+  min-height: 100vh;
 }
