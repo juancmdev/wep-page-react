@@ -1,6 +1,9 @@
 .container {
   width: 80%;
-  min-height: 10dvh;
+  min-height: 100vh;
   margin: 0 auto;
   background: aliceblue;
+
+  display: flex;
+  flex-direction: column;
 }
