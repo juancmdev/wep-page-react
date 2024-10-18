@@ -8,3 +8,13 @@ body {
   background: rgb(71, 164, 245);
   min-height: 100vh;
 }
+
+.container {
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: aliceblue;
+
+  display: flex;
+  flex-direction: column;
+}
