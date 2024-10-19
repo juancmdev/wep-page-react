@@ -9,7 +9,7 @@
 }
 
 body {
-  background: rgb(71, 164, 245);
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?t=st=1729308302~exp=1729311902~hmac=261db1998c7f8b6920ad6c209ca910cc7750c0836fdaa40796f3dee1cca4b267&w=1380");
   min-height: 100vh;
 }
 
@@ -17,7 +17,10 @@ body {
   width: 80%;
   min-height: 100vh;
   margin: 0 auto;
-  background: aliceblue;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
 
   display: flex;
   flex-direction: column;
