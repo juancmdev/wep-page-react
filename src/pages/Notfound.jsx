@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useRouteError } from "react-router-dom";
+import { useRouteError, Link } from "react-router-dom";
 
 const Notfound = () => {
   const error = useRouteError();
@@ -11,6 +11,7 @@ const Notfound = () => {
       <h1>404</h1>
       <p>Page not found</p>
       <p>{error.statusText || error.message}</p>
+      <Link to="/">Volver al Inicio </Link>
     </div>
   );
 };
