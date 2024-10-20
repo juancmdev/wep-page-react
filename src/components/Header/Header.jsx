@@ -9,11 +9,18 @@ const Header = () => {
           D<span className="text-yellow-400">X</span>S Ti
           <span className="text-yellow-400">en</span>da
         </h1>
-        <input
-          type="text"
-          className="w-64 h-10 border-[1px] border-solid  hover:border-yellow-400 cursor-pointer"
-          placeholder="Buscar"
-        />
+
+        <div className="input relative">
+          <input
+            type="text"
+            className="p-2 w-64 h-10 border-[1px] border-solid  hover:border-yellow-400 cursor-pointer outline-none transition ease-in-out delay-75"
+            placeholder="Buscar"
+          ></input>
+          <i class="fa-solid fa-magnifying-glass absolute top-3 right-3"></i>
+        </div>
+        <div className="w-10 h-10 bg-black text-yellow-400 flex justify-center items-center rounded-full transition ease-in-out delay-75 hover:text-white cursor-pointer">
+          <i class="fa-regular fa-user"></i>
+        </div>
       </header>
     </>
   );
