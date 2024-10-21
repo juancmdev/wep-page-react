@@ -17,7 +17,7 @@ const Footer = () => {
           to="/Contacto"
           className={({ isActive }) =>
             isActive
-              ? "text-xs text-yellow-400 transition ease-in-out delay-[0.1s] mb-1"
+              ? "text-xs text-yellow-400 underline transition ease-in-out delay-[0.1s] mb-1"
               : "text-xs text-black underline mb-1 hover:text-yellow-400"
           }
           // className="text-xs underline hover:text-yellow-400 cursor-pointer mb-1 tracking-wider"
