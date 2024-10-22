@@ -9,6 +9,13 @@ const Form = () => {
   })
 }
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  console.log(handleSubmit);
+  
+}
+
 const Contacto = () => {
   return (<>
   <div className="text-3xl font-bold">Contacto</div>
