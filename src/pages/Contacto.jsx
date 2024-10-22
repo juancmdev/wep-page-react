@@ -4,7 +4,7 @@ import Form from "../components/Form";
 
 const Contacto = () => {
   return (<>
-  <div className="text-3xl font-bold">Contacto</div>
+  <div className="text-3xl text-center mt-3 font-bold">Contacto</div>
   <Form/>
   </>)
 };
