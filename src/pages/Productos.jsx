@@ -20,7 +20,7 @@ const Productos = () => {
           <div class="card">
             <div class="front">
               <h2></h2>
-              <img src="" alt="" />
+              <img src="src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg" alt="" width="300px"/>
             </div>
 
             <div class="back">
