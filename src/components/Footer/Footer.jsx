@@ -33,13 +33,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex gap-2">
-        <div className="flex justify-center items-center bg-white w-[25px] h-[25px] hover:bg-yellow-400 cursor-pointer">
+        <div className="flex justify-center w-[25px] h-[25px] items-center bg-[#ffffff]   hover:bg-yellow-400 cursor-pointer">
           <i class="fa-brands fa-square-github text-3xl"></i>
         </div>
-        <div className="flex justify-center items-center bg-white w-[25px] h-[25px] hover:bg-yellow-400 cursor-pointer">
+        <div className="flex justify-center items-center w-[25px] h-[25px] bg-[#ffffff]   hover:bg-yellow-400 cursor-pointer">
           <i class="fa-brands fa-linkedin text-3xl"></i>
         </div>
-        <div className="flex justify-center items-center bg-white w-[25px] h-[25px] hover:bg-yellow-400 cursor-pointer">
+        <div className="flex justify-center items-center w-[25px] h-[25px] bg-[#ffffff]  hover:bg-yellow-400 cursor-pointer">
           <i class="fa-brands fa-square-youtube text-3xl "></i>
         </div>
       </div>
