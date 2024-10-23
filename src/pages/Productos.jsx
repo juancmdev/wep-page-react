@@ -8,43 +8,26 @@ const Productos = () => {
           <h1 className="text-center my-3">Tienda</h1>
         </div>
         <div className="grid grid-cols-3">
-          <a href="#" className="flex justify-center items-center">
-            <img
-              src="/src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg"
-              alt="Descripción de la imagen"
-              width="200px"
-              height="200px"
-              className="rounded-full mx-2 transition ease-in-out delay-[0.1s] hover:scale-105"
-            />
-          </a>
-          <a href="#" className="flex justify-center items-center">
-            <img
-              src="/src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg"
-              alt="Descripción de la imagen"
-              width="200px"
-              height="200px"
-              className="rounded-full mx-2 transition ease-in-out delay-[0.1s] hover:scale-105"
-            />
-          </a>
-          <a href="#" className="flex justify-center items-center">
-            <img
-              src="/src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg"
-              alt="Descripción de la imagen"
-              width="200px"
-              height="200px"
-              className="rounded-full mx-2 transition ease-in-out delay-[0.1s] hover:scale-105"
-            />
-          </a>
-          <a href="#" className="flex justify-center items-center">
-            <img
-              src="/src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg"
-              alt="Descripción de la imagen"
-              width="200px"
-              height="200px"
-              className="rounded-full mx-2 transition ease-in-out delay-[0.1s] hover:scale-105"
-            />
+          <ul id="lista-*******"></ul>
+          <a href="/">
+            <i class="fa-solid fa-arrow-left"></i>
           </a>
         </div>
+      </div>
+
+      <div id="template-productos">
+        <li class="lista">
+          <div class="card">
+            <div class="front">
+              <h2></h2>
+              <img src="" alt="" />
+            </div>
+
+            <div class="back">
+              <h2></h2>
+            </div>
+          </div>
+        </li>
       </div>
     </>
   );
