@@ -1,4 +1,5 @@
 import React from "react";
+import Template from "../components/Template";
 
 const Productos = () => {
   return (
@@ -12,7 +13,7 @@ const Productos = () => {
         </div>
       </div>
 
-      
+      <Template />
     </>
   );
 };

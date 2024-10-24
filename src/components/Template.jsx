@@ -3,18 +3,18 @@ import React from 'react'
 const Template = () => {
   return (
     <>
-      <div id="template-productos">
+      <template id="template-productos">
         <li class="lista">
           <div class="imagen-categoria">
             <img
-              src="src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg"
+              src=""
               alt=""
-              width="300px"
+              width=""
             />
             <h2>Pelotas de tenis</h2>
           </div>
         </li>
-      </div>
+      </template>
     </>
   )
 }
