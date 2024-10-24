@@ -1,9 +1,8 @@
-// import { useRef } from "react";
-// import Productos from "../pages/Productos";
-// import { categorias } from "../database/database"; 
+//import { ******* } from "../database/database";
 
-// const lista = useRef(null);
-// console.log(lista);
+
+//const lista = document.querySelector("#lista-categorias");
+
 
 
 //const template = document.querySelector("#template-********").content;
@@ -20,4 +19,3 @@
 });*/
 
 //lista.appendChild(fragment);
-
