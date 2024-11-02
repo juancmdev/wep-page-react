@@ -12,7 +12,7 @@ const Template = () => {
               alt=""
               width=""
             />
-            <h2>Pelotas de teniSSSs</h2>
+            <h2>Pelotas de tenis</h2>
           </div>
         </li>
       </template>
