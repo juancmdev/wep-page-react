@@ -18,14 +18,14 @@ const Navbar = () => {
           Inicio
         </NavLink>
         <NavLink
-          to="/productos"
+          to="/tienda"
           className={({ isActive }) =>
             isActive
               ? "text-yellow-400 bg-black transition ease-in-out delay-50w-auto h-auto px-4 py-1.5"
               : "text-black w-auto h-auto px-4 py-1.5"
           }
         >
-          Productos
+          Tienda
         </NavLink>
         <NavLink
           to="/servicios"
