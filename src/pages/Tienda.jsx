@@ -9,18 +9,18 @@ const Tienda = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <h1 className="text-3xl font-bold text-center">Tienda</h1>
-      <ul>
+      <ul className="grid grid-cols-4 m-14 gap-5">
         {productosListados.map((producto) => (
           <li key={producto.id}>
             <h2>{producto.nombre}</h2>
-            <img src={producto.img} width={300} />
+            <img src={producto.img} />
             <h3>Precio: $ {producto.precio}</h3>
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 
