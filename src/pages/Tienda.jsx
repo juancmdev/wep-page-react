@@ -15,10 +15,17 @@ const Tienda = () => {
       <ul className="grid grid-cols-4 m-14 gap-5">
         {productosListados.map((producto) => (
           <li key={producto.id}>
-            <h2 className="h-10">{producto.nombre}</h2>
-            <img src={producto.img} />
-            <h3>Precio: $ {producto.precio}</h3>
-            <Link to={producto.to}>{producto.nombre}</Link>
+            <Link to={producto.to} className="">
+              <h2 className="h-10">{producto.nombre}</h2>
+              <img
+                src={producto.img}
+                className="mb-3 transition-all ease delay-75 hover:scale-105 cursor-pointer"
+              />
+            </Link>
+            <h3>
+              Precio: $<del>{producto.antes}</del> -{" "}
+              <span className="text-xl">Promo: ${producto.precio}</span>
+            </h3>
           </li>
         ))}
       </ul>
