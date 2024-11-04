@@ -1,7 +1,7 @@
 export const productos = [
   {
     id: 1,
-    nombre: "Pelotas de tenis Head",
+    nombre: "Pelotas de tenis Head x 3",
     img: "/src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
     precio: "75.000",
