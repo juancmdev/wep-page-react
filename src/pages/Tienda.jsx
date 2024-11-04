@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { productos } from "../database/productos.js";
+import { Link } from "react-router-dom";
 
 const Tienda = () => {
   const [productosListados, setProductosListados] = useState([]);
@@ -17,6 +18,7 @@ const Tienda = () => {
             <h2 className="h-10">{producto.nombre}</h2>
             <img src={producto.img} />
             <h3>Precio: $ {producto.precio}</h3>
+            <Link to={producto.to}>{producto.nombre}</Link>
           </li>
         ))}
       </ul>

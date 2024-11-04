@@ -5,6 +5,7 @@ export const productos = [
     img: "/src/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
     precio: "75.000",
+    to: "productos/pelotas_tenis_head",
   },
 
   {
