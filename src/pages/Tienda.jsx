@@ -26,8 +26,8 @@ const Tienda = () => {
               Precio: $
               <del className="line-through decoration-solid">
                 {producto.antes}{" "}
-              </del>{" "}
-              -{" "}
+              </del>
+              {" - "}
               <span className="text-lg cursor-pointer">
                 Promo: ${producto.precio}
               </span>
