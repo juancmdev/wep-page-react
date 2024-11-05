@@ -4,7 +4,7 @@ import { productos } from "../../database/productos";
 const Card = () => {
   return (
     <>
-      <div className="container mx-auto h-min">
+      <div className="container-product mx-auto h-min w-[90%]" style={{}}>
         <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-5 my-20">
           <img
             src={productos[0].img}

@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "../../components/Card/Card";
+import { productos } from "../../database/productos";
 
 const Pelotas_tenis_head = () => {
   return (
     <>
       <Card />
-      <p className="mx-4">
+      <p className="mx-auto w-[90%]">
         Descripción: Las pelotas de tenis Head son ideales para cualquier otra
         persona que busque la pelota perfecta para lanzar sus mejores más
         precisos tiros.
       </p>
-      <ul className="list-disc mx-4 mb-4">
+      <ul className="mx-auto w-[90%] list-disc mx-4 mb-4">
         <li>Marca: HEAD</li>
         <li>Material: Compuesto</li>
         <li>Color: Lemon Tree</li>
