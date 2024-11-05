@@ -23,8 +23,14 @@ const Tienda = () => {
               />
             </Link>
             <h3>
-              Precio: $<del>{producto.antes}</del> -{" "}
-              <span className="text-xl">Promo: ${producto.precio}</span>
+              Precio: $
+              <del className="line-through decoration-solid">
+                {producto.antes}{" "}
+              </del>{" "}
+              -{" "}
+              <span className="text-lg cursor-pointer">
+                Promo: ${producto.precio}
+              </span>
             </h3>
           </li>
         ))}
