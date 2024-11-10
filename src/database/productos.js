@@ -27,8 +27,8 @@ export const productos = [
 
   {
     id: 3,
-    nombre: "Pelotas ",
-    img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
+    nombre: "Miguel Angel ",
+    img: "/public/images/bolas_tenis_head.png",
     alt: "text here image",
     antes: "35.500",
     precio: "28.000",
