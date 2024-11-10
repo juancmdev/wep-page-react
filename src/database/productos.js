@@ -12,6 +12,7 @@ export const productos = [
       "Material: Compuesto",
       "Color: Lemon Tree",
       "Rango de edad: Adulto",
+      "Empaque por 3 pelotas",
     ],
   },
 
