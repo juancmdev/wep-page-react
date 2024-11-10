@@ -12,7 +12,7 @@ const Tienda = () => {
   return (
     <>
       <h1 className="text-3xl font-bold text-center mt-5">Tienda</h1>
-      <ul className="grid grid-cols-4 m-14 gap-5">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-14 gap-5">
         {productosListados.map((producto) => (
           <li key={producto.id}>
             <Link to={producto.to} className="">
