@@ -7,10 +7,16 @@ export const productos = [
     antes: "35.500",
     precio: "24.900",
     to: "productos/pelotas_tenis_head",
+    caracteristicas: [
+      "Marca: HEAD",
+      "Material: Compuesto",
+      "Color: Lemon Tree",
+      "Rango de edad: Adulto",
+    ],
   },
 
   {
-    id: 1,
+    id: 2,
     nombre: "Pelotas",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -19,7 +25,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 3,
     nombre: "Pelotas ",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -28,7 +34,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 4,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -37,7 +43,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 5,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -46,7 +52,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 6,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -55,7 +61,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 7,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -64,7 +70,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 8,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -73,7 +79,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 9,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -82,7 +88,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 10,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -91,7 +97,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 11,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -100,7 +106,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 12,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -109,7 +115,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 13,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",
@@ -118,7 +124,7 @@ export const productos = [
   },
 
   {
-    id: 1,
+    id: 14,
     nombre: "Pelotas de tenis Head",
     img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     alt: "text here image",

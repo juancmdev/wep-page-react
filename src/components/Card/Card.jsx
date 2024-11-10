@@ -2,6 +2,10 @@ import React from "react";
 import { productos } from "../../database/productos";
 
 const Card = (props) => {
+  const lista = props.caracteristicas.map((element, index) => {
+    <li key={index}>{element}</li>;
+  });
+
   return (
     <>
       <div className="container-product mx-auto h-min w-[90%]" style={{}}>
@@ -11,10 +15,11 @@ const Card = (props) => {
             <h2 className="text-3xl text-center mb-5">{props.nombre}</h2>
             <div className="flex justify-center">
               <ul className="list-disc mx-4 mb-4">
-                <li>Marca: HEAD</li>
+                {lista}
+                {/* <li>Marca: HEAD</li>
                 <li>Material: Compuesto</li>
                 <li>Color: Lemon Tree</li>
-                <li>Rango de edad: Adulto</li>
+                <li>Rango de edad: Adulto</li> */}
               </ul>
             </div>
             <p className="text-2xl text-center mb-1">
