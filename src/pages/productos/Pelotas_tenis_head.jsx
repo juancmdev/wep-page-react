@@ -18,7 +18,7 @@ const Pelotas_tenis_head = () => {
         precisos tiros.
       </p>
       <br />
-      <ul className=" w-[90%] list-disc mx-4 mb-4">
+      <ul className=" w-[90%] list-disc mx-8 lg:mx-20 md:mx-12 mb-4">
         <li>Marca: HEAD</li>
         <li>Material: Compuesto</li>
         <li>Color: Lemon Tree</li>
