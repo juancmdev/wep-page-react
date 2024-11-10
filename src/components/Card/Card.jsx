@@ -3,7 +3,7 @@ import { productos } from "../../database/productos";
 
 const Card = (props) => {
   const lista = props.caracteristicas.map((element, index) => {
-    <li key={index}>{element}</li>;
+    return <li key={index}>{element}</li>;
   });
 
   return (
@@ -12,7 +12,7 @@ const Card = (props) => {
         <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-5 my-20">
           <img src={props.src} alt={productos[0].alt} className="w-auto" />
           <div className="">
-            <h2 className="text-3xl text-center mb-5">{props.nombre}</h2>
+            <h2 className="text-3xl text-center mb-3">{props.nombre}</h2>
             <div className="flex justify-center">
               <ul className="list-disc mx-4 mb-4">
                 {lista}
