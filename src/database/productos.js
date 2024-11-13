@@ -27,7 +27,7 @@ export const productos = [
 
   {
     id: 3,
-    nombre: "Miguel Angel ",
+    nombre: "Pelotas de tenis head",
     img: "/public/images/bolas_tenis_head.png",
     alt: "text here image",
     antes: "35.500",
