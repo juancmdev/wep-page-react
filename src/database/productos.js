@@ -14,15 +14,26 @@ export const productos = [
       "Rango de edad: Adulto",
       "Empaque por 3 pelotas",
     ],
+    pago: "https://mpago.li/2Hsm4KX",
   },
 
   {
     id: 2,
-    nombre: "Pelotas",
-    img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
-    alt: "text here image",
-    antes: "35.500",
-    precio: "25.000",
+    nombre: "Encendedor Zippo Mossy Oak",
+    img: "/public/images/zippo_28332.png",
+    alt: "Encendedor Zippo 28332 image",
+    antes: "145.000",
+    precio: "87.000",
+    to: "/tienda/productos/encendedor_zippo_mossyoak_28332",
+    caracteristicas: [
+      "Marca: Zippo",
+      "Material: Metal",
+      "Color: Camo",
+      "Modelo: Mossy Oak 28332",
+      "Inflamable: Si",
+      "Tipo de combustible: Gasolina Zippo (No incluida)",
+    ],
+    pago: "https://mpago.li/2csYxr5",
   },
 
   {

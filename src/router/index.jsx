@@ -7,6 +7,7 @@ import Servicios from "../pages/Servicios";
 import Contacto from "../pages/Contacto";
 import Notfound from "../pages/Notfound";
 import Pelotas_tenis_head from "../pages/productos/Pelotas_tenis_head";
+import Encendedor_zippo_moasyoak_28332 from "../pages/productos/Encendedor_zippo_moasyoak_28332";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
       {
         path: "/tienda/productos/pelotas_tenis_head",
         element: <Pelotas_tenis_head />,
+      },
+      {
+        path: "/tienda/productos/encendedor_zippo_mossyoak_28332",
+        element: <Encendedor_zippo_moasyoak_28332 />,
       },
     ],
   },
