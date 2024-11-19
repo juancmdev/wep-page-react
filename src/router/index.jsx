@@ -39,6 +39,10 @@ export const router = createBrowserRouter([
         path: "/tienda/productos/encendedor_zippo_mossyoak_28332",
         element: <Encendedor_zippo_moasyoak_28332 />,
       },
+      {
+        path: "/tienda/productos/encendedor_zippo_usaf_28621",
+        element: <Encendedor_zippo_usaf_28621 />,
+      },
     ],
   },
 ]);
