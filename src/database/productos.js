@@ -21,7 +21,7 @@ export const productos = [
     id: 2,
     nombre: "Encendedor Zippo Mossy Oak",
     img: "/public/images/zippo_28332.png",
-    alt: "Encendedor Zippo 28332 image",
+    alt: "Encendedor Zippo 28332",
     antes: "145.000",
     precio: "87.000",
     to: "/tienda/productos/encendedor_zippo_mossyoak_28332",
@@ -38,11 +38,21 @@ export const productos = [
 
   {
     id: 3,
-    nombre: "Pelotas de tenis head2",
-    img: "/public/images/bolas_tenis_head.png",
-    alt: "text here image",
-    antes: "35.500",
-    precio: "28.000",
+    nombre: "Encendedor Zippo usaf 28621",
+    img: "/public/images/zippo_28621.png",
+    alt: "Encendedor zippo usaf 28621",
+    antes: "119.000",
+    precio: "77.350",
+    to: "/tienda/productos/encendedor_zippo_usaf_28621",
+    caracteristicas: [
+      "Marca: Zippo",
+      "Material: Metal",
+      "Color: Silver",
+      "Modelo: UASAF 28621",
+      "Inflamable: Si",
+      "Tipo de combustible: Gasolina Zippo (No incluida)",
+    ],
+    pago: "https://mpago.li/2Rskywj",
   },
 
   {

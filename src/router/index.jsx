@@ -8,6 +8,7 @@ import Contacto from "../pages/Contacto";
 import Notfound from "../pages/Notfound";
 import Pelotas_tenis_head from "../pages/productos/Pelotas_tenis_head";
 import Encendedor_zippo_moasyoak_28332 from "../pages/productos/Encendedor_zippo_moasyoak_28332";
+import Encendedor_zippo_usaf_28621 from "../pages/productos/Encendedor_zippo_usaf_28621";
 
 export const router = createBrowserRouter([
   {
