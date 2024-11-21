@@ -11,6 +11,7 @@ const Pelotas_tenis_head = () => {
         antes={productos[0].antes}
         precio={productos[0].precio}
         caracteristicas={productos[0].caracteristicas}
+        pago={productos[0].pago}
       />
       <p className="mx-auto w-[90%]">
         Descripción: Las pelotas de tenis Head son ideales para cualquier otra

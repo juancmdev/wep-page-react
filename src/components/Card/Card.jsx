@@ -32,7 +32,7 @@ const Card = (props) => {
             </p>
             <p className="text-2xl text-center mb-3">Paga: ${props.precio}</p>
             <a
-              href="https://mpago.li/2Hsm4KX"
+              href={props.pago}
               className=" mx-auto w-full md:w-60 lg:w-80 h-11 bg-black text-yellow-400 flex justify-center items-center"
               target="_blank"
             >
