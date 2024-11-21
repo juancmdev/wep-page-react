@@ -16,7 +16,7 @@ const Tienda = () => {
         {productosListados.map((producto) => (
           <li key={producto.id}>
             <Link to={producto.to} className="">
-              <h2 className="h-10">{producto.nombre}</h2>
+              <h2 className="h-10 text-xl">{producto.nombre}</h2>
               <img
                 src={producto.img}
                 className="mb-3 transition-all ease delay-75 hover:scale-105 cursor-pointer"
