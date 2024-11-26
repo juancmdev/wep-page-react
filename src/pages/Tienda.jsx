@@ -24,7 +24,7 @@ const Tienda = () => {
             </Link>
             <h3>
               Precio: $
-              <del className="line-through decoration-solid">
+              <del className="line-through decoration-solidS">
                 {producto.antes}{" "}
               </del>
               {" - "}
