@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <header className="header w-full h-[200px] md:h-[100px] border-[1px] border-solid border-black flex flex-col items-center justify-evenly md:flex-row">
+      <header className="header w-full h-[200px] md:h-[100px]  flex flex-col items-center justify-evenly md:flex-row">
         <h1 className="text-xl w-36 h-16 text-white bg-black flex justify-center items-center ml-2 tracking-[2px]">
           D<span className="text-yellow-400">X</span>S Ti
           <span className="text-yellow-400">en</span>da

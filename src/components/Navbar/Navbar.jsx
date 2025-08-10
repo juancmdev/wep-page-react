@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar h-14 text-xl border-slate-400 border-[1px]">
         <NavLink
           to="/"
           className={({ isActive }) =>

@@ -8,12 +8,10 @@ import "../index.css";
 const LayoutPublic = () => {
   return (
     <>
-      <div className="container">
-        <Header />
-        <Navbar />
-        <Main />
-        <Footer />
-      </div>
+      <Header />
+      <Navbar />
+      <Main />
+      <Footer />
     </>
   );
 };
