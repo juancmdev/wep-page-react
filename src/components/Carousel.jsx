@@ -8,10 +8,10 @@ const Carousel = () => {
   // Array de URLs de imágenes de ejemplo.
   // Puedes reemplazarlas con tus propias imágenes.
   const images = [
-    "public/images/zippo_28332.png",
-    "public/images/bolas_tenis_head.png",
-    "public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
-    "public/images/zippo_28621.png",
+    "images/zippo_28332.png",
+    "images/bolas_tenis_head.png",
+    "images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
+    "images/zippo_28621.png",
   ];
 
   // Estado para rastrear el índice de la imagen actual
