@@ -9,6 +9,7 @@ import Notfound from "../pages/Notfound";
 import Pelotas_tenis_head from "../pages/productos/Pelotas_tenis_head";
 import Encendedor_zippo_moasyoak_28332 from "../pages/productos/Encendedor_zippo_moasyoak_28332";
 import Encendedor_zippo_usaf_28621 from "../pages/productos/Encendedor_zippo_usaf_28621";
+import AmbientadorLgTropicalF from "../pages/productos/AmbientadorLgTropicalF";
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
       {
         path: "/tienda/productos/encendedor_zippo_usaf_28621",
         element: <Encendedor_zippo_usaf_28621 />,
+      },
+      {
+        path: "/tienda/productos/ambietador_ligthgel_tropicalfruit",
+        element: <AmbientadorLgTropicalF/>,
       },
     ],
   },

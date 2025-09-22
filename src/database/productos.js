@@ -57,11 +57,20 @@ export const productos = [
 
   {
     id: 4,
-    nombre: "Pelotas de tenis HeadS",
-    img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
-    alt: "text here image",
-    antes: "35.500",
-    precio: "25.000",
+    nombre: "Ambientador Ligth Gel Tropical Fruit",
+    img: "/public/images/ligth_gel/TROPICAL_FRUIT-1.webp",
+    alt: "Ambientador Ligth Gel Tropical Fruit",
+    antes: "17.900",
+    precio: "13.900",
+    to: "/tienda/productos/ambietador_ligthgel_tropicalfruit",
+    caracteristicas: [
+      "Marca: Zippo",
+      "Material: Metal",
+      "Color: Silver",
+      "Modelo: UASAF 28621",
+      "Inflamable: Si",
+      "Tipo de combustible: Gasolina Zippo (No incluida)",
+    ],
   },
 
   {
