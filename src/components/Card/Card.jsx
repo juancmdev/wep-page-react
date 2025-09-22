@@ -14,7 +14,7 @@ const Card = (props) => {
             src={props.src}
             alt={productos[0].alt}
             className="m-auto"
-            width={500}
+            width={600}
           />
           <div className="">
             <h2 className="text-3xl text-center mb-3">{props.nombre}</h2>

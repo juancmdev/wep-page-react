@@ -19,7 +19,7 @@ const Tienda = () => {
               <h2 className="h-10 text-xl mb-6 text-center">{producto.nombre}</h2>
               <img
                 src={producto.img}
-                className="mb-3 transition-all ease delay-75 hover:scale-105 cursor-pointer"
+                className="mb-3 transition-all ease delay-75 hover:scale-105 cursor-pointer w-[300px] h-[300px]"
               />
             </Link>
             <h3>
