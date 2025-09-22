@@ -12,6 +12,7 @@ const Carousel = () => {
     "images/bolas_tenis_head.png",
     "images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
     "images/zippo_28621.png",
+    "images/ligth_gel/tropical_fruit.jpg"
   ];
 
   // Estado para rastrear el índice de la imagen actual

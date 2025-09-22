@@ -58,7 +58,7 @@ export const productos = [
   {
     id: 4,
     nombre: "Ambientador Ligth Gel Tropical Fruit",
-    img: "/public/images/ligth_gel/TROPICAL_FRUIT-1.webp",
+    img: "/public/images/ligth_gel/tropical_fruit.jpg",
     alt: "Ambientador Ligth Gel Tropical Fruit",
     antes: "17.900",
     precio: "13.900",
