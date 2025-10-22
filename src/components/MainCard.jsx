@@ -11,7 +11,7 @@ const MainCard = () => {
 
   return (
     <>
-      <ul className="grid grid-cols-4 gap-5">
+      <ul className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
         {productosListados.map((producto) => (
           <li key={producto.id}>
             <div className="w-[300px] h-[450px] rounded shadow-slate-400 shadow-md mb-3">
@@ -21,7 +21,7 @@ const MainCard = () => {
                   className="object-contain w-full h-full pt-3 pl-3 pr-3 rounded"
                 />
               </div>
-              <div className="w-[300px] h-[60px] ">
+              <div className="w-[300px] h-[60px] sm:text-xs md:text-sm lg:text-base">
                 <h1 className="text-center text-xl px-2 font-bold">
                   {producto.nombre}
                 </h1>
