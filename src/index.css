@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   min-height: 100vh;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.5);
