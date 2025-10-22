@@ -2,8 +2,8 @@ export const productos = [
   {
     id: 1,
     nombre: "Ambientador Ligth Gel Pack X 6",
-    descripcion:
-      "Transforme su experiencia de conducción con el Ambientador Light Gel para auto. Este práctico producto viene en un total de 6 unidades de 14 mL cada una, ofreciendo una variedad de aromas para deleitar sus sentidos y mantener su vehículo con un aroma fresco y agradable.",
+    descripcion1:
+      "Ambientador Light Gel para autopack por de 6 unidades de 14 mL.",
     img: "https://res.cloudinary.com/dgaqbo3m2/image/upload/v1761096116/ligth_gel_pack_x_6_uycp7a.webp",
     antes: "95.400",
     precio: "76.900",

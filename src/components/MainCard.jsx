@@ -20,7 +20,34 @@ const MainCard = () => {
 
   return (
     <>
-      <div></div>
+      <div className="w-[300px] h-[450px] bg-yellow-200 rounded shadow-slate-400 shadow-md">
+        <div className="w-[300px] h-[220px] mb-2">
+          <img
+            src={productosListados[0].img}
+            className="object-fit w-full h-full pt-3 pl-3 pr-3 rounded"
+          />
+        </div>
+        <div>
+          <h1 className="text-center text-xl px-2 font-bold">
+            {productosListados[0].nombre}
+          </h1>
+          <p className="text-sm px-3 text-left mb-2">
+            {productosListados[0].descripcion1}
+          </p>
+          <hr className="mx-3" />
+          <div className="flex items-center">
+            <h2 className="mx-4 mt-2 font-extrabold text-3xl">
+              ${productosListados[0].precio}
+            </h2>
+            <h5 className="line-through mt-2 text-xl text-gray-600">
+              ${productosListados[0].antes}
+            </h5>
+          </div>
+          <button className="text-xl h-30 w-64 bg-black text-yellow-500 hover:text-yellow-600  p-2 mt-2 mx-auto block rounded-xl">
+            Comprar Ahora
+          </button>
+        </div>
+      </div>
     </>
   );
 };
