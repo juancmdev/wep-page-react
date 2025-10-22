@@ -1,20 +1,21 @@
 export const productos = [
   {
     id: 1,
-    nombre: "Pelotas de tenis Head x 3",
-    img: "/public/images/bolas_tenis_head.png",
-    alt: "text here image",
-    antes: "35.500",
-    precio: "24.900",
+    nombre: "Ambientador Ligth Gel Pack X 6",
+    descripcion:
+      "Transforme su experiencia de conducción con el Ambientador Light Gel para auto. Este práctico producto viene en un total de 6 unidades de 14 mL cada una, ofreciendo una variedad de aromas para deleitar sus sentidos y mantener su vehículo con un aroma fresco y agradable.",
+    img: "https://res.cloudinary.com/dgaqbo3m2/image/upload/v1761096116/ligth_gel_pack_x_6_uycp7a.webp",
+    antes: "95.400",
+    precio: "76.900",
     to: "productos/pelotas_tenis_head",
     caracteristicas: [
-      "Marca: HEAD",
-      "Material: Compuesto",
-      "Color: Lemon Tree",
-      "Rango de edad: Adulto",
-      "Empaque por 3 pelotas",
+      "Unidades por pack: 6",
+      "Formato: Gel",
+      "Fragancia: Varias a Elección",
     ],
+    alt: "Ambientador Ligth Gel Pack X 6",
     pago: "https://mpago.li/2Hsm4KX",
+    stockStatus: "En Stock",
   },
 
   {
@@ -75,8 +76,8 @@ export const productos = [
 
   {
     id: 5,
-    nombre: "Pelotas de tenis Head",
-    img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
+    nombre: "Ambientador Ligth Gel Pack X 6",
+    img: "https://res.cloudinary.com/dgaqbo3m2/image/upload/v1761096116/ligth_gel_pack_x_6_uycp7a.webp",
     alt: "text here image",
     antes: "35.500",
     precio: "25.000",
@@ -84,11 +85,20 @@ export const productos = [
 
   {
     id: 6,
-    nombre: "Pelotas de tenis Head",
-    img: "/public/images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
+    nombre: "Pelotas de tenis Head x 3",
+    img: "/public/images/bolas_tenis_head.png",
     alt: "text here image",
     antes: "35.500",
-    precio: "25.000",
+    precio: "24.900",
+    to: "productos/pelotas_tenis_head",
+    caracteristicas: [
+      "Marca: HEAD",
+      "Material: Compuesto",
+      "Color: Lemon Tree",
+      "Rango de edad: Adulto",
+      "Empaque por 3 pelotas",
+    ],
+    pago: "https://mpago.li/2Hsm4KX",
   },
 
   {

@@ -8,11 +8,11 @@ const Carousel = () => {
   // Array de URLs de imágenes de ejemplo.
   // Puedes reemplazarlas con tus propias imágenes.
   const images = [
-    "images/zippo_28332.png",
-    "images/bolas_tenis_head.png",
-    "images/Gemini_Generated_Image_gfzw6igfzw6igfzw.jpg",
+    "https://res.cloudinary.com/dgaqbo3m2/image/upload/v1760375499/ligth_gelFrutos_rojos_mf2i4k.webp",
+    "https://res.cloudinary.com/dgaqbo3m2/image/upload/v1761095483/pack_x_6_xamrkg.webp",
+    "https://res.cloudinary.com/dgaqbo3m2/image/upload/v1761096116/ligth_gel_pack_x_6_uycp7a.webp",
     "images/zippo_28621.png",
-    "images/ligth_gel/tropical_fruit.jpg"
+    "images/ligth_gel/tropical_fruit.jpg",
   ];
 
   // Estado para rastrear el índice de la imagen actual
@@ -54,7 +54,7 @@ const Carousel = () => {
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-auto object-cover"
+                className="w-full object-contain h-[600px]"
                 onError={(e) => {
                   e.target.onerror = null;
                   e.target.src =
@@ -116,8 +116,8 @@ const Carousel = () => {
               onClick={() => goToSlide(index)}
               className={`h-3 w-3 rounded-full transition-colors duration-300 ${
                 index === currentSlide
-                  ? "bg-white"
-                  : "bg-white/50 hover:bg-white"
+                  ? "bg-orange-500 hover:bg-orange-600"
+                  : "bg-yellow-500 hover:bg-yellow-600"
               }`}
             />
           ))}
