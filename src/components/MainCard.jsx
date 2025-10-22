@@ -11,26 +11,30 @@ const MainCard = () => {
 
   return (
     <>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-14 gap-5">
+      <ul className="grid grid-cols-4 gap-5">
         {productosListados.map((producto) => (
           <li key={producto.id}>
-            <div className="w-[300px] h-[450px] rounded shadow-slate-400 shadow-md ">
-              <div className="w-[300px] h-[220px] mb-2">
+            <div className="w-[300px] h-[450px] rounded shadow-slate-400 shadow-md mb-3">
+              <div className="w-[300px] h-[220px]">
                 <img
                   src={producto.img}
-                  className="object-fit w-full h-full pt-3 pl-3 pr-3 rounded"
+                  className="object-contain w-full h-full pt-3 pl-3 pr-3 rounded"
                 />
               </div>
-              <div>
+              <div className="w-[300px] h-[60px] ">
                 <h1 className="text-center text-xl px-2 font-bold">
                   {producto.nombre}
                 </h1>
-                <p className="text-sm px-3 text-left mb-2">
+              </div>
+              <div className="w-[300px] h-[50px]">
+                <p className="text-sm px-3 text-left ">
                   {producto.descripcion1}
                 </p>
+              </div>
+              <div>
                 <hr className="mx-3" />
                 <div className="flex items-center">
-                  <h2 className="mx-4 mt-2 font-extrabold text-3xl">
+                  <h2 className="mx-4 font-extrabold text-3xl mt-2">
                     ${producto.precio}
                   </h2>
                   <h5 className="line-through mt-2 text-xl text-gray-600">
